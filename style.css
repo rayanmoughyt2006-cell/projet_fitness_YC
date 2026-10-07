@@ -545,3 +545,24 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+.labelitemsP{
+  display:block;
+}
+
+textarea{
+  display: block;
+}
+
+#btn{
+  color:#1D4ED8;
+}
+.inpt{
+  width: 140px;
+  height: 18px;
+  border-radius: 35px;
+}
+.box{
+  width: 400px;
+  height: 500px;
+}
