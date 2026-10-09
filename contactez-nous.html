@@ -22,62 +22,80 @@
     <header class="en-tete">
         <div class="conteneur en-tete-contenu">
             <a href="accueil.html" class="logo">Élan Fitness</a>
+            <img src="img/logogym.png" alt="logo del la salle Fitness" width="70" height="70"  class="minilogo">
+
 
             <nav aria-label="Navigation principale">
                 <ul class="menu">
                     <li><a href="accueil.html">Accueil</a></li>
                     <li><a href="A_props.html">À propos</a></li>
                     <li><a href="programmes.html">Programmes</a></li>
-                    <li><a href="contactez-nous.html ">contactez-nous</a></li>
+                    <li><a href="contactez-nous.html " class="lien-actif">contactez-nous</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <center>
         <section class="hero">
-            <div class="box">
-                <article class="carte formule formule-populaire">
-                    <h1>Contactez-Nous</h1>
-                    <p>vous pouvez Nous Contacter</p>
-                    < <form action="" method="post">
-                        <label for="" class="labelitems">
-                            <h4>Nom :</h4>
-                        </label>
-                        <input type="text" class="inpt">
-                        <label for="" class="labelitems">
-                            <h4>Prenom :</h4>
-                        </label>
-                        <input type="text" class="inpt">
-                        <label for="" class="labelitems">
-                            <h4>tel :</h4>
-                        </label>
-                        <input type="text" placeholder="+212 :XXXXXXXXX" class="inpt">
-                        <label for="" class="labelitems">
-                            <h4>email :</h4>
-                        </label>
-                        <input type="email" placeholder="email@exmple.com :" class="inpt">
-                        <label for="" class="labelitems">
-                            <h4>SUBJECT : </h4>
-                        </label>
-                        <input type="text" placeholder="type :" class="inpt">
-                        <textarea name="problem de cleint" id="textarea" row="20" col="50" >
-            </textarea>
-                        <button type="submite" onclick="alert('Thank you !')" id="btn"> submite !</button>
-                        </form>
-                </article>
-            </div>
-            <div class="infomation">
-                <h3>Nos coordonnes</h3>
-                <p class="labelitems">Élan Fitness</p>
-                <p class="labelitems">Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
-                <p class="labelitems"> tel : +212 234 9045 236</p>
-                <p class="labelite">Mail : contact@email.com</p>
+            <div class="div">
 
+                <div class="box" class="left">
+                    <center>
+                        <article class="carte formule formule-populaire">
+                            <h1>Contactez-Nous</h1>
+                            <p class="p">vous pouvez Nous Contacter</p>
+                            <form action="">
+                                <div>
+                                    <label for="">
+                                        <h4>Nom Complet:</h4>
+                                    </label>
+                                    <input type="text" class="inpt" placeholder="NOM : ">
+                                    <input type="text" class="inpt" placeholder="pronom : ">
+                                </div>
+                                <label for="" class="labelitems">
+                                    <h4>email :</h4>
+                                </label>
+                                <input type="email" placeholder="email@exmple.com :" id="email">
+                                <label for="" class="labelitems">
+                                    <h4>tel :</h4>
+                                </label>
+                                <input type="txt"  class="inpt" placeholder="+212 XXX XXXX XXX :" id="tele">
+                                <label for="" class="labelitems">
+                                    <h4>SUBJECT : </h4>
+                                </label>
+                                <input type="text" placeholder="type :" class="inpt">
+                                <label for=""class="labelitems">
+                                    <h4>Message : </h4>
+                                     </label>
+                                <textarea name="problem de cleint" id="textarea" row="20" col="50"
+                                    class="txt"></textarea>
+                                <button type="submite" onclick="alert('Thank you !')" id="btn"> submit !</button>
+                            </form>
+                        </article>
+                    </center>
+                </div>
+
+                <div class="rightone">
+                    <article class="carte formule formule-populaire">
+                        <img src="img/logogym.png" alt="logo del la salle Fitness" width="150" height="150" id="logo">
+                        <h2 href="accueil.html" class="logo" class="labelitems">Élan Fitness<h2>
+                                <p class="p">Salle de sport à Casablanca</p>
+                    </article>
+                </div>
+                <div class="rightow">
+                    <article class="carte formule formule-populaire">
+                        <center>
+                            <h3>Nos coordonnes</h3>
+                            <p class="labelitems">Élan Fitness</p>
+                            <p class="labelitems">Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+                            <p class="labelitems"> tel : +212 234 9045 236</p>
+                            <p class="labelite">Mail : contact@email.com</p>
+                        </center>
+                    </article>
+                </div>
             </div>
+
         </section>
-                </center>
-
     </main>
     <footer class="pied-de-page">
         <div class="conteneur">

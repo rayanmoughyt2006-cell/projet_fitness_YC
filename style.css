@@ -462,7 +462,7 @@ button:focus-visible {
 .prix-note {
   margin: -8px 0 16px;
   font-size: 13px;
-  color: #4B5563;
+  color: #4d91d5;
 }
 
 .formule-liste {
@@ -550,19 +550,78 @@ button:focus-visible {
   display:block;
 }
 
-textarea{
-  display: block;
+.txt{
+  display:block ;
+  width: 240px;
+  height: 50px;
+  border-radius: 35px;
 }
 
 #btn{
-  color:#1D4ED8;
+  width: 140px;
+  height: 32px;
+  background-color: #FF6B2C;
+  border-radius: 10px;
+  border: 1px solid #FF6B2C;
+  color: #FFFFFF;
+  margin-top: 15px;
 }
 .inpt{
-  width: 140px;
-  height: 18px;
-  border-radius: 35px;
+  width: 240px;
+  height: 25px;
+  border-radius: 7px;
+}
+#email {
+  width: 440px;
+  height: 25px;
+  border-radius: 7px;
+}
+#tele{
+   width: 380px;
+  height: 25px;
+  border-radius: 7px;
 }
 .box{
-  width: 400px;
+  width: 50%;
   height: 500px;
+  color: #DBEAFE;
+}
+.div {
+  position: relative;
+  display: flex;
+  background-color: white;
+  left: 150px;
+}
+
+.rightone{
+  position: absolute;
+  width: 35%;
+  height: 498px;
+  right: 200px;
+  margin-top: 0x;
+  display: flex;
+}
+#logo{
+  position: absolute;
+  left: 190px;
+  margin-top: 60px;
+}
+
+.p{
+  color:orangered;
+}
+.rightow{
+  position: relative;
+  left: 75px;
+  margin-top: 260px;
+}
+#textarea{
+  width: 340px;
+  height: 65px;
+  border-radius: 7px;
+}
+.minilogo{
+  position: absolute;
+  margin-top: 0;
+  left: 90px;
 }
